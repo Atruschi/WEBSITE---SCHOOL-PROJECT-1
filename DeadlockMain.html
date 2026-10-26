@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Deadlock</title>
+    <link rel="stylesheet" href="DeadlockMain.css">
+</head>
+
+<body>
+    <header id="top">
+        <nav class="site-nav">
+            <a class="site-nav__brand" href="DeadlockMain.html">DEADLOCK</a>
+            <div class="site-nav__links">
+                <a href="DeadlockMain.html" aria-current="page">Home</a>
+                <a href="DeadlockInfo.html">Game info</a>
+                <a href="DeadlockGallery.html">Characters</a>
+                <a href="DeadlockDownload.html">Download</a>
+            </div>
+        </nav>
+
+    </header>
+
+    <main>
+        <section class="hero" aria-label="Deadlock artwork">
+            <img class="hero__image" src="DMHP.jpg" alt="">
+        </section>
+
+        <section class="game-intro" aria-labelledby="game-intro-title">
+            <div class="game-intro__orb">
+                <video controls autoplay muted playsinline preload="metadata" aria-label="Deadlock gameplay video">
+                    <source src="videoplayback.mp4" type="video/mp4">
+                    
+                </video>
+            </div>
+            <div class="game-intro__text">
+                <p class="game-intro__eyebrow">WELCOME TO THE CITY</p>
+                <h1 id="game-intro-title">A fight for every street.</h1>
+                <p>Deadlock is a team-based action game set in a strange, supernatural city. Choose a hero, work with your team, push through enemy territory, and battle for control of the streets.</p>
+            </div>
+        </section>
+
+        <section class="characters" aria-labelledby="characters-title">
+            <div class="characters__heading">
+                <p class="game-intro__eyebrow">CHOOSE YOUR FIGHTER</p>
+                <h2 id="characters-title">Meet the characters</h2>
+            </div>
+            <div class="characters__grid">
+                <article class="character-card">
+                    <img src="haze_card.png" alt="Portrait of Haze">
+                    <div class="character-card__text">
+                        <h3>Haze</h3>
+                        <p>A stealthy assassin who stalks her targets from the shadows and strikes before they can react.</p>
+                    </div>
+                </article>
+                <article class="character-card">
+                    <img src="mo_and_krill_card.png" alt="Portrait of Mo and Krill">
+                    <div class="character-card__text">
+                        <h3>Mo &amp; Krill</h3>
+                        <p>A powerful underground duo: Mo brings the muscle while Krill uses clever tricks to disrupt enemies.</p>
+                    </div>
+                </article>
+                <article class="character-card">
+                    <img src="rem_card.png" alt="Portrait of Rem">
+                    <div class="character-card__text">
+                        <h3>Rem</h3>
+                        <p>A small but resourceful fighter who uses gadgets and quick thinking to help control the battlefield.</p>
+                    </div>
+                </article>
+                <article class="character-card">
+                    <img src="seven_card.png" alt="Portrait of Seven">
+                    <div class="character-card__text">
+                        <h3>Seven</h3>
+                        <p>A dangerous electrical powerhouse who unleashes lightning to punish groups of enemies.</p>
+                    </div>
+                </article>
+            </div>
+            <a class="characters__more" href="DeadlockGallery.html">See more characters <span aria-hidden="true">→</span></a>
+        </section>
+
+        <section class="download-cta" aria-labelledby="download-cta-title">
+            <p class="game-intro__eyebrow">YOUR NEXT FIGHT STARTS HERE</p>
+            <h2 id="download-cta-title">Try out our game</h2>
+            <p>Step into the city, pick your fighter, and join the battle.</p>
+            <a class="download-cta__button" href="DeadlockDownload.html">Visit the download page <span aria-hidden="true">→</span></a>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="site-footer__content">
+            <div class="site-footer__brand">
+                <a class="site-nav__brand" href="DeadlockMain.html">DEADLOCK</a>
+                <p>A fan-made overview of the world and heroes of Deadlock.</p>
+            </div>
+            <nav class="site-footer__links" aria-label="Footer navigation">
+                <a href="DeadlockMain.html">Home</a>
+                <a href="DeadlockInfo.html">Game info</a>
+                <a href="DeadlockGallery.html">Characters</a>
+                <a href="DeadlockDownload.html">Download</a>
+                <a href="#top">Back to top ↑</a>
+            </nav>
+        </div>
+        <div class="site-footer__bottom">
+            <p>Fan-made project. Not affiliated with Valve.</p>
+        </div>
+    </footer>
+
+</body>
+
+</html>
